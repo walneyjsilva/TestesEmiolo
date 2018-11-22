@@ -1,0 +1,12 @@
+@ECHO OFF
+ 
+SET mysqldir=C:\Program Files\MySQL\MySQL Server 8.0\bin
+CD %mysqldir%
+ 
+if not exist "C:\backup" mkdir "C:\backup"
+SET dirback=C:\backup
+ 
+SET mysqluser=root
+SET mysqlpassword=12345
+ 
+mysqldump -u %mysqluser% -p%mysqlpassword% --databases cadastrousuario>%dirback%\backup_bd.sql
