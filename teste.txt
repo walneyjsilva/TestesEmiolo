@@ -3,3 +3,5 @@ rogerdudler.github.io/git-guide/index.pt_BR.html
 http://mauriciodeamorim.com.br/2009/01/06/como-usar-git-no-windows/
 
 https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
+
+https://www.devmedia.com.br/json-net-como-consumir-dados-em-aplicacoes/29818
